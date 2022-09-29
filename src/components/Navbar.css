@@ -1,0 +1,35 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    padding: 0 30px;
+}
+
+.fixedNav{
+    z-index: 999;
+    background-color: #000000e3;
+    backdrop-filter: blur(10px);
+}
+
+.brend img {
+    width: 100px;
+}
+
+.authButton{
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.userImage{
+    width: 50px;
+    padding: 10px;
+    border-radius: 50px;
+}

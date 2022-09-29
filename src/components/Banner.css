@@ -1,0 +1,48 @@
+header{
+    height: 100vh;
+    background: no-repeat;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+    background: linear-gradient(90deg, #070707f7 50%, transparent 75%);
+    padding: 0 35px;
+}
+
+.MovieTitle{
+    font-size: 40px;
+    color: white;
+}
+
+.buttons .btn {
+    padding: 15px 35px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: 0.7s ease ;
+    -webkit-transition: 0.7s ease;
+    margin:  15px 0px;
+}
+
+.buttons .btn:nth-child(2){
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+
+.buttons .btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.MovieDesc{
+    width: 50%;
+    font-size: 20px;
+    color: white;
+}

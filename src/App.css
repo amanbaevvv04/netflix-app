@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media screen and (max-width: 767px) {
+    .navbar{
+        padding: 0 17px;
+    }
+
+    .main{
+        background: linear-gradient(90ged, #070707ed 47%, transparent 85%);
+        padding: 0 18px;
+    }
+
+    .movieTitle{
+        font-size: 45px!important;
+    }
+
+    .btn{
+        padding: 15px 20px!important;
+        font-size: 17px!important;
+    }
+
+    .movieDesc{
+        width: 85%;
+        font-size: 17px;
+    }
+
+    .filmsCategory{
+        padding: 20px 15px;
+    }
+
+    .films{
+        padding: 10px;
+        overflow-x: scroll;
+    }
+
+    #Player{
+        width: 95%;
+    }
+
+    .filmPosterLarge{
+        max-height: 220px;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (max-width: 470px) {
+    .navbar{
+        padding:  0 17px;
+    }
+
+    .main{
+        background: linear-gradient(90ged, #070707ed 47%, transparent 85%);
+        padding: 0 18px;
+    }
+
+    .movieTitle{
+        font-size: 40px!important;
+    }
+
+    .btn{
+        padding: 15px 20px!important;
+        font-size: 17px!important;
+    }
+
+    .movieDesc{
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .filmsCategory{
+        padding: 20px 10px;
+    }
+
+    .films{
+        padding: 10px;
+        overflow-x: scroll;
+    }
+
+    #Player{
+        width: 93%;
+    }
+
+    .filmPosterLarge{
+        max-height: 220px;
+    }
+
+
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media screen and (max-width: 370px) {
+    .navbar{
+        padding:  0 17px;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .main{
+        background: linear-gradient(90ged, #070707ed 47%, transparent 85%);
+        padding: 0 18px;
+    }
+
+    .movieTitle{
+        font-size: 40px!important;
+    }
+
+    .btn{
+        padding: 15px 20px!important;
+        font-size: 17px!important;
+    }
+
+    .movieDesc{
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .filmsCategory{
+        padding: 20px 10px;
+    }
+
+    .films{
+        padding: 10px;
+        overflow-x: scroll;
+    }
+
+    #Player{
+        width: 93%;
+    }
+
+    .filmPosterLarge{
+        max-height: 220px;
+    }
+
+
 }
